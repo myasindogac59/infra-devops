@@ -1,3 +1,5 @@
-# infra-devops
+## Structure
 
-This repository contains DevOps infrastructure examples including Docker and CI/CD configurations.
+- docker/: Docker related files
+- ci/: CI/CD pipelines
+- docs/: Documentation
