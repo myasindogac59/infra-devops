@@ -1,3 +1,9 @@
 FROM nginx:alpine
-HEALTHCHECK  --interval=30s --timeout=3s \
-CMD wget -q0- http://localhost || exit 1
+
+HEALTHCHECK --interval=10s --timeout=2s \
+  CMD wget -qO- http://localhost || exit 1
+FROM nginx:alpine
+
+HEALTHCHECK --interval=10s --timeout=2s \
+  CMD wget -qO- http://localhost || exit 1
+
