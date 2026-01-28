@@ -9,4 +9,3 @@ This repository is used to practice Git, Docker, and DevOps workflows
 - main: production
 - develop: integration
 - feature/*: isolated changes
-prod'da olmaması gereken bir şey
